@@ -1,17 +1,17 @@
 # Copyright (c) 2022 Duccio Breschi
 # SPDX-License-Identifier: MIT
 
-if SHIELD_OPENWORK_LEFT
+if SHIELD_OPENWORK36_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "OPENWORK"
+    default "OPENWORK36"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_OPENWORK_LEFT || SHIELD_OPENWORK_RIGHT
+if SHIELD_OPENWORK36_LEFT || SHIELD_OPENWORK36_RIGHT
 
 config ZMK_SPLIT
     default y

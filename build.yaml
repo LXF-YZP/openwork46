@@ -11,8 +11,8 @@
 
 include:
   - board: nice_nano_v2
-    shield: openwork_left
+    shield: openwork36_left
   - board: nice_nano_v2
-    shield: openwork_right
+    shield: openwork36_right
   - board: nice_nano_v2
     shield: settings_reset
