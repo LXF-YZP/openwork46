@@ -1,6 +1,6 @@
 file_format: "1"
-id: openwork
-name: openwork
+id: kakfa
+name: kafka
 type: shield
 url: https://github.com/jimmerricks/swoop
 requires: [pro_micro]
@@ -11,5 +11,5 @@ features:
   - encoders
   - underglow
 siblings:
-  - openwork_left
-  - openwork_right
+  - kafka_left
+  - kafka_right
