@@ -1,6 +1,6 @@
 file_format: "1"
-id: openwork
-name: openwork
+id: redox
+name: redox
 type: shield
 url: https://github.com/jimmerricks/swoop
 requires: [pro_micro]
@@ -9,5 +9,5 @@ features:
   - keys
   - display
 siblings:
-  - openwork_left
-  - openwork_right
+  - redox_left
+  - redox_right
